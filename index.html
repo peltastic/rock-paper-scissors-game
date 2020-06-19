@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="app-background">
+      <div class="backdrop"></div>
+      <section class="rules-background">
+        <h1>RULES</h1>
+        <img class="rules-background__cancel" src="images/icon-close.svg" alt="icon-close">
+        <img class="rules-image" src="images/image-rules.svg" alt="image-rules">
+      </section>
+      <div class="score-board">
+        <div class="score-board__svg">
+          <img src="images/logo.svg" alt="game-logo" />
+        </div>
+        <div class="user-score">
+          <h3 class="user-score__title">SCORE</h3>
+          <h1 class="user-score__score">0</h1>
+        </div>
+      </div>
+      <div class="game-area">
+        <div class="game-start">
+          <div class="game-start__svg">
+            <div class="PAPER">
+              <div class="paper">
+                <img src="images/icon-paper.svg" alt="paper" />
+              </div>
+            </div>
+            <div class="SCISSORS">
+              <div class="scissors">
+                <img src="images/icon-scissors.svg" alt="" />
+              </div>
+            </div>
+            <img src="images/bg-triangle.svg" alt="" />
+            <div class="ROCK">
+              <div class="rock">
+                <img src="images/icon-rock.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="result-display">
+        </div>
+        
+      </div>
+      <a href="#" class="rules-button">rules</a>
+    </section>
+  </body>
+</html>
